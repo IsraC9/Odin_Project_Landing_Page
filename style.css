@@ -32,6 +32,13 @@ ul {
     
 }
 
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+}
+
 .Top_info {
     color: #F9FAF8;
     font-size: 18px;
