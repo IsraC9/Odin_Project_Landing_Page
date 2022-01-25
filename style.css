@@ -63,3 +63,27 @@ p {
     align-items: center;
     padding: 55px 100px
 }
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: #1F2937;
+    font-size: 36px;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.Subtext {
+    max-width: 200px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
