@@ -35,6 +35,8 @@ ul {
 button {
     color: #F9FAF8;
     background-color: #3882F6;
+    border-color: #E5E7EB;
+    border: solid;
     border-radius: 8px;
     padding: 5px 20px 5px 20px;
 }
@@ -64,6 +66,8 @@ p {
     padding: 55px 100px
 }
 
+/*  MIDDLE   */
+
 
 h2 {
     display: flex;
@@ -76,14 +80,70 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 40px;
+    font-size: 18px;
+    color: #8a8d92;
+    
     
 }
 
 .Subtext {
-    max-width: 200px;
+    max-width: 150px;
+    text-align: center;
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
+
+.Quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 120px 80px 120px;
+}
+
+
+.Said {
+    
+    margin-left: 500px;
+    font-weight: bold;
+}
+
+p {
+    
+    max-width: 800px;
+}
+
+.Action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Action_Container {
+    margin: 50px;
+    padding: 30px 80px;
+    background-color: #3882F6;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 150px;
+}
+ .Action_button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+ }
+
+ .Action_text {
+    color: #E5E7EB;
+ }
