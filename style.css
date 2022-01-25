@@ -82,7 +82,7 @@ h2 {
     gap: 40px;
     font-size: 18px;
     color: #8a8d92;
-    
+    padding-bottom: 80px;
     
 }
 
@@ -146,4 +146,15 @@ p {
 
  .Action_text {
     color: #E5E7EB;
+ }
+
+ /* Bottom */
+
+ .Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#E5E7EB;
+    padding-top: 20px;
+    padding-bottom: 20px;
  }
